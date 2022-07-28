@@ -27,12 +27,21 @@ public class People{
         personList.remove(id);
     }
 
-    public int size(){
+    public void removeAll(){
+        personList.clear();
+    }
+
+    public int count(){
         return personList.size();
     }
 
     public List<Person> toArray(){
         return new ArrayList<Person>();
+    }
+
+    Iterable<Person> iterator(){
+        personList.iterator();
+        return personList;
     }
 
 }
