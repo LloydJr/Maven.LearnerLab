@@ -1,4 +1,4 @@
-# Leon's Lengthy Learner Lab 
+o# Leon's Lengthy Learner Lab 
 * **Objective** - to implement a `ZipCodeWilmington` class which _mediates_ a _composite_ `Students` and `Instructors` _singleton_ reference.
 * **Purpose** - to demonstrate the use of
 	* [interfaces](https://stackoverflow.com/questions/1321122/what-is-an-interface-in-java)
@@ -8,7 +8,7 @@
 	* [generics](https://stackoverflow.com/questions/7815528/what-are-generics-in-java/7815579)
 
 
-### Part 1.1 - Create `Person` Class
+### Part 1.1 - Create `Person` Class `DONE`
 * Create a `Person` class.
 	* The class should declare a `final` field named `id` of type `long`.
 	* The class should declare a field named `name` of type `String`.	
@@ -18,13 +18,13 @@
 	* The class should define a `setName()` method which sets the `Person` object's `name` field.
 
 -
-### Part 1.0 - Test `Person`
+### Part 1.0 - Test `Person` `DONE`
 * Create a `TestPerson` class.
 	* Create a `testConstructor` method which ensures that a `Person` object's `id` and `name` field are being set upon construction.
 	* Create a `testSetName` method which ensures that a `Person` object's `name` variable is being set by invoking the `.setName` method.
 
 -
-### Part 2.0 - Create `Learner` Interface
+### Part 2.0 - Create `Learner` Interface 'DONE'
 * Create a `Learner` interface.
 	* `Learner` should declare method signature:
 		* Method name: `learn`
@@ -35,24 +35,30 @@
 		* Method return-type: `Double`
 
 -
-### Part 3.1 - Create `Student` Class
+### Part 3.1 - Create `Student` Class `DONE`
 * Create a `Student` class such that:
-	* `Student` is a subclass of `Person`
-	* `Student` implements the `Learner` interface
-	* `Student` should have an instance variable `totalStudyTime` of type `double`
-	* `Student` should have a concrete implementation of the `learn` method which increments the `totalStudyTime` variable by the specified `numberOfHours` argument.
-	* `Student` should have a `getTotalStudyTime()` method which returns the `totalStudyTime` instance variable.
+    * `Student` is a subclass of `Person`
+    * `Student` implements the `Learner` interface
+    * `Student` should have an instance variable `totalStudyTime` of type `double`
+    * `Student` should have a concrete implementation of the `learn` method which 
+  increments the `totalStudyTime` variable by the specified `numberOfHours` argument.
+    * `Student` should have a `getTotalStudyTime()` method which returns the
+  `totalStudyTime` instance variable.
 
 
 -
-### Part 3.0 - Test `Student`
+### Part 3.0 - Test `Student`  `DONE`
 * Create a `TestStudent` class.
-	* Create a `testImplementation` method that asserts that a `Student` is an `instanceof` a `Learner`.
-	* Create a `testInheritance` method that asserts that a `Student` is an `instanceof` a `Person`.
-	* Create a `testLearn` method that ensures a `Student`'s `totalStudyTime` instance variable is incremented by the specified `numberOfHours` by invoking the `.learn` method.
+    * Create a `testImplementation` method that asserts that a `Student` is
+  an `instanceof` a `Learner`.
+    * Create a `testInheritance` method that asserts that a `Student` is
+  an `instanceof` a `Person`.
+    * Create a `testLearn` method that ensures a `Student`'s `totalStudyTime` 
+  instance variable is incremented by the specified `numberOfHours` 
+  by invoking the `.learn` method.
 
 -
-### Part 4.0 - Create `Teacher` Interface
+### Part 4.0 - Create `Teacher` Interface `DONE`
 * Create a `Teacher` interface.
 	* `Teacher` should declare a `teach` method signature:
 		* Method name: `teach`
