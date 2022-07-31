@@ -76,7 +76,7 @@ o# Leon's Lengthy Learner Lab
 
 		
 -
-### Part 5.1 - Create `Instructor` Class
+### Part 5.1 - Create `Instructor` Class `DONE`
 * Create an `Instructor` class such that:
 	* `Instructor` is a subclass of `Person`
 	* `Instructor` implements the `Teacher` interface
@@ -86,7 +86,7 @@ o# Leon's Lengthy Learner Lab
 			* `double numberOfHoursPerLearner = numberOfHours / learners.length;`
 
 -
-### Part 5.0 - Test `Instructor`
+### Part 5.0 - Test `Instructor` `DONE`
 * Create a `TestInstructor` class.
 	* Create a `testImplementation` method that asserts that an `Instructor` is an `instanceof` a `Teacher`.
 	* Create a `testInheritance` method that asserts that a `Instructor` is an `instanceof` a `Person`.
@@ -95,7 +95,7 @@ o# Leon's Lengthy Learner Lab
 
 
 -
-### Part 6.1 - Create `People` class
+### Part 6.1 - Create `People` class `DONE`
 * Create a `People` class.
 	* The class should instantiate a `List` field of `Person` objects named `personList`.
 	* The class should define a method named `add` which adds a `Person` to the `personList`.
@@ -117,7 +117,7 @@ o# Leon's Lengthy Learner Lab
 
 
 -
-### Part 7.1 - Create `Students` singleton
+### Part 7.1 - Create `Students` singleton `DONE`
 * **Note:** The creation of this class will demonstrate an implementation of [singleton design pattern](https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples#eager-initialization).
 * Create a `Students` class.
 	* The class should be an _unextendable_ subclass of the `People` class.
@@ -129,14 +129,14 @@ o# Leon's Lengthy Learner Lab
 	
 
 -
-### Part 7.0 - Test `Students` singleton
+### Part 7.0 - Test `Students` singleton `DONE`
 * Create a `TestStudents` class.
 	* Create a `test` method which ensures that each of the students in your current cohort are in your `Students` singleton.
 
 
 
 -
-### Part 8.0 - Create and Test `Instructors` singleton
+### Part 8.0 - Create and Test `Instructors` singleton `DONE`
 * Use `Part 7` as a reference.
 * Create a `Instructors` singleton which represents the set of instructors at ZipCodeWilmington.
 * Create a `TestInstructors` class.

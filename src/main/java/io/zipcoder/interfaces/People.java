@@ -4,11 +4,14 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class People{
+public abstract class People<E> implements Iterable<E>{
 
     Person person;
 
     List<Person> personList;
+//    public People(){
+//        personList = new ArrayList<>();
+//    }
 
     public void add(Person addPerson){
         personList.add(addPerson);
@@ -39,9 +42,9 @@ public class People{
         return new ArrayList<Person>();
     }
 
-    Iterable<Person> iterator(){
-        personList.iterator();
-        return personList;
+    public Iterator<E> iterator(){
+        return (Iterator<E>) personList.iterator();
     }
 
+//    public abstract Student[] getArray();
 }
