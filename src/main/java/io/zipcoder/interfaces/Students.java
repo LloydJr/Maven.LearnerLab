@@ -13,7 +13,7 @@ public final class Students extends People<Student>{
 //       personList.add(student);
     }
     @Override
-    public List<Person> toArray(){
+    public List<Student> toArray(){
         return null;
     }
 //    @Override

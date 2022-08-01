@@ -12,7 +12,7 @@ public class Instructors extends People<Instructor>{
     }
 
     @Override
-    public List<Person> toArray() {
+    public List<Instructor> toArray() {
         return null;
     }
     public static Instructors getInstance() {

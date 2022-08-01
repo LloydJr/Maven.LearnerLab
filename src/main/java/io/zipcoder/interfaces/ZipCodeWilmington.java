@@ -14,8 +14,8 @@ public class ZipCodeWilmington {
         return INSTANCE;
     }
     public void hostLecture(long id, double numberOfHours){
-        long instructors = instructorsINSTANCE.findById(id);
-        hostLecture(instructors, numberOfHours);
+        Teacher teacher = instructorsINSTANCE.findById(id);
+        hostLectures(teacher, numberOfHours);
     }
     public HashMap<Student, Double> getStudyMap() {
         HashMap<Student, Double> studyMap = new HashMap<>();
