@@ -1,13 +1,12 @@
 package io.zipcoder.interfaces;
 
-public enum Educator implements Teacher{
+public enum Educator implements Teacher {
     DOLIO(new Instructor(88, "Dolio")),
     KRIS(new Instructor(99, "Kris"));
-
     final Instructor instructor;
     double timeWorked = 0.0;
 
-    Educator(Instructor instructor){
+    Educator(Instructor instructor) {
         this.instructor = instructor;
     }
 
